@@ -21,6 +21,8 @@ database:
     port: 5432
     user:
     password:
+    # Superuser for `make db_init`; empty defaults to "postgres".
+    admin_user:
 
 paths:
     downloads_folder: '/tmp'
