@@ -375,6 +375,7 @@ def init_db(
     autoflush=True,
     engine_args={},
     pooler=None,
+    **kwargs,
 ):
     """
     Parameters
